@@ -32,3 +32,7 @@ app.post('/incidencia', (req, res) => {
 app.listen(3000, () => {
   console.log('Servidor ejecutándose en puerto 3000');
 });
+
+
+
+El servidor recibe los datos enviados mediante una petición POST y responde con un mensaje indicando que los datos fueron recibidos correctamente, mostrando el nombre y el mensaje enviados.
